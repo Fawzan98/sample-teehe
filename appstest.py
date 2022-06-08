@@ -45,3 +45,7 @@ else:
         time.sleep(0.1)
 
     '...and now we\'re done!'
+    st.write(pd.DataFrame({
+        'Intplan': ['yes', 'yes', 'yes', 'no'],
+        'Churn Status': [0, 0, 0, 1]
+        }))
