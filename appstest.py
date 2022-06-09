@@ -28,7 +28,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 
-iris = datasets.read_csv("https://raw.githubusercontent.com/Fawzan98/sample-teehe/main/IRIS.csv)
+iris = datasets.read_csv("https://raw.githubusercontent.com/Fawzan98/sample-teehe/main/IRIS.csv")
 X = iris['sepal_length','sepal_width','petal_length', 'petal_width']
 Y = iris['species']
 
