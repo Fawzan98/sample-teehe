@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
-# Teehee-Simple Iris Flower Prediction App
+# Edited Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
 """)
 
@@ -39,9 +39,7 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-st.write(iris['species'][0],
-        iris['species'][1],
-        iris['species'][2])
+st.write(iris.data_names)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
