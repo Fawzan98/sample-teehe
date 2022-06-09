@@ -39,8 +39,8 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-st.write(iris['species'][0]
-        iris['species'][1]
+st.write(iris['species'][0],
+        iris['species'][1],
         iris['species'][2])
 
 st.subheader('Prediction')
