@@ -29,7 +29,7 @@ st.write(df)
 
 
 iris = pd.read_csv('https://github.com/Fawzan98/sample-teehe/raw/main/IRIS.csv')
-X = iris['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+X = iris['sepal_width','sepal_length', 'petal_length', 'petal_width']
 Y = iris['species']
 
 clf = RandomForestClassifier()
